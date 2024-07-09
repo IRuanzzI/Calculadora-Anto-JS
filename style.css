@@ -1,10 +1,21 @@
-body{
+body {
     background-color: pink;
     background-size: cover;
     height: 100vh;
 }
 
-main{
+header {
+    text-align: center;
+    font-size: large;
+}
+
+header img {
+    width: 7%;
+    height: auto;
+    vertical-align: middle;
+}
+
+main {
     margin: 0;
     display: flex;
     justify-content: center;
@@ -12,12 +23,18 @@ main{
     padding-bottom: 20px;
 }
 
-footer{
+footer {
     text-align: center;
     margin: 0;
     border-top: 3px solid black;
     display: block;
-    
+
+}
+
+footer img {
+    width: 4%;
+    height: auto;
+    vertical-align:middle;
 }
 
 #calculator {
